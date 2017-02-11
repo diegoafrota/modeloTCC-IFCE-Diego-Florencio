@@ -1,0 +1,446 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\use_default_options true
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Pre-texto/capa.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Pre-texto/folhaderosto.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "Pre-texto/folha_aprovacao.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "Pre-texto/dedicatoria.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Agradecimentos
+\end_layout
+
+\begin_layout Standard
+Agradeço ao Fulano, Beltrano, Sicrano...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Inclusão do arquivo externo da epígrafe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Pre-texto/epigrafe.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Resumo
+\end_layout
+
+\begin_layout Standard
+Escreva aqui o resumo.
+\end_layout
+
+\begin_layout Chapter*
+Abstract
+\end_layout
+
+\begin_layout Standard
+Write here your abstract.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "custom"
+width "2.5cm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introdução
+\end_layout
+
+\begin_layout Section
+Considerações gerais
+\end_layout
+
+\begin_layout Standard
+Desde a primeira metade do século XIX, o estudo das propriedades dos fluidos
+ tem como base o trabalho de Navier e Stokes.
+ A equação diferencial de Navier-Stokes, representa uma descrição contínua
+ e macroscópica das propriedades do fluido, além de assegurar a conservação
+ local e global da energia e momento.
+ Para uma descrição completa do fluido, também é necessário utilizar a equação
+ da continuidade (conservação da massa) e a equação do calor (conservação
+ da energia).
+ Porém, por geralmente tratarem-se de equações diferenciais parciais acopladas,
+ apenas em alguns casos essas equações podem ser resolvidas analiticamente,
+ e , apesar de existirem métodos numéricos bem estabelecidos (diferenças
+ finitas, elementos finitos, métodos espectrais) e amplamente utilizados,
+ existem casos onde estes métodos não podem ser aplicados.
+ Isto pode ser devido a não continuidade do sistema, dificuldades de convergênci
+a numérica ou mesmo a ausência de flutuações térmicas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ripoll"
+
+\end_inset
+
+.
+ Exemplos de tais limitações aparecem em problemas nos quais as propriedades
+ microscópicas dos componentes do fluido são relevantes para o comportamento
+ geral do mesmo.
+\end_layout
+
+\begin_layout Standard
+De um outro ponto de vista, métodos de simulação computacional como a dinâmica
+ molecular (
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "DM"
+description "Dinâmica Molecular"
+
+\end_inset
+
+DM) baseiam-se numa descrição microscópica dos fluidos.
+ Técnicas desse tipo reproduziriam exatamente as propriedades dinâmicas
+ e de equilíbrio para fluidos complexos se um poder computacional ilimitado
+ pudesse ser atingido.
+ Entrentanto, em vários tipos de sistemas físicos esse tipo de abordagem
+ é impraticável.
+ Como exemplo, para simular com todos os detalhes sistemas coloidais (suspensões
+ de partículas sólidas formadas por um grande número de átomos), seria necessári
+o resolver um grande número de equações (
+\begin_inset Formula $10^{6}-10^{9}$
+\end_inset
+
+) devido ao enorme número de graus de liberdade do sistema, o que está aquém
+ da atual capacidade computacional.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/chata_port.eps
+	scale 95
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A dinâmica mesoscópica cria o elo entre a escala microscópica e macroscópica.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:chata"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Devido a importância de escalas de tamanho intermediárias (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:chata"
+
+\end_inset
+
+) para a compreensão de fenômenos macroscópicos e o crescente aumento do
+ poder computacional, vários métodos de simulação para sistemas chamados
+ mesoscópicos (
+\begin_inset Formula $nm-\mu m$
+\end_inset
+
+) têm sido desenvolvidos nos últimos anos.
+ Métodos estes que utilizam tanto a abordagem ``
+\shape italic
+top-down
+\shape default
+'', que consiste na discretização das equações contínuas, quanto a abordagem
+ ``
+\shape italic
+bottom-up
+\shape default
+'', na qual utilizam-se descrições granulares (
+\shape italic
+coarse-grained
+\shape default
+) onde a física microscópica é fortemente simplificada mas efeitos relevantes
+ ainda são levados em conta 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ripoll"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Sistemas denominados 
+\shape italic
+soft matter
+\shape default
+ (colóides, polímeros) pertencem ao intervalo mesoscópico e apresentam muitos
+ fenômenos de importância prática.
+ Em todos eles, a interação entre solvente (fluido complexo) e soluto (suspensõe
+s coloidais) é fundamental para o entendimento dos fenômenos físicos apresentado
+s, fazendo com que simulações computacionais envolvendo fluidos tenham um
+ papel importante nessa área 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gompper2009multi"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Este capítulo têm como objetivo servir de introdução aos métodos numéricos
+ de hidrodinâmica mesoscópica.
+ Serão descritos, em linhas gerais, alguns dos métodos de simulação mais
+ utilizados e conhecidos: 
+\shape italic
+Lattice Gas Automata
+\shape default
+ (
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "LGA"
+description "Lattice Gas Automata"
+
+\end_inset
+
+LGA), 
+\shape italic
+Lattice Boltzmann
+\shape default
+ (
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "LB"
+description "Lattice Boltzmann"
+
+\end_inset
+
+LB), e 
+\shape italic
+Dissipative Particle Dynamics
+\shape default
+ (
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "DPD"
+description "Dissipative Particle Dynamics"
+
+\end_inset
+
+DPD).
+ Seus detalhes e implementações fogem ao escopo deste trabalho, sendo suas
+ menções apenas com o intuito de mostrar a evolução histórica das técnicas,
+ abrindo caminho para o real foco deste trabalho: a Dinâmica de Colisão
+ de Multipartículas (
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "DCMP"
+description "Dinâmica de Colisão de Multipartículas"
+
+\end_inset
+
+DCMP), a qual será abordada com detalhes nos capítulos seguintes.
+\end_layout
+
+\begin_layout Section
+Resumo dos métodos existentes
+\end_layout
+
+\begin_layout Subsection
+Lattice Gas Automata (LGA)
+\end_layout
+
+\begin_layout Standard
+Numa simulação de LGA 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ripoll"
+
+\end_inset
+
+ a representação macroscópica é substituída por um conjunto de partículas
+ que se deslocam de um sítio para outro numa rede regular fixa.
+ Durante cada passo de tempo as partículas se movem na rede de acordo com
+ seu vetor momento 
+\begin_inset Formula $\mathbf{p_{i}}$
+\end_inset
+
+ e colidem se duas delas ocuparem o mesmo sítio.
+ As regras de colisão são tais que o número de partículas, momento e energia
+ são conservados.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "tese"
+options "bibtotoc,bibstyle/abntex2-num"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

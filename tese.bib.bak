@@ -1,0 +1,266 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@ARTICLE{allahyarov2002mesoscopic,
+  author = {Allahyarov, E and Gompper, G},
+  title = {Mesoscopic solvent simulations: Multiparticle-collision dynamics
+	of three-dimensional flows},
+  journal = {Physical Review E},
+  year = {2002},
+  volume = {66},
+  pages = {036702},
+  number = {3},
+  publisher = {APS}
+}
+
+@ARTICLE{andersen1980molecular,
+  author = {Andersen, Hans C},
+  title = {Molecular dynamics simulations at constant pressure and/or temperature},
+  journal = {The Journal of chemical physics},
+  year = {1980},
+  volume = {72},
+  pages = {2384},
+  number = {4}
+}
+
+@BOOK{boldrini1980algebra,
+  title = {{\'A}lgebra linear},
+  publisher = {Harper \& Row do Brasil},
+  year = {1980},
+  author = {Boldrini, Jose Luiz and Costa, Sueli IR and Figueredo, VL and Wetzler,
+	Henry G},
+  edition = {3}
+}
+
+@BOOK{butkov,
+  title = {F\'{i}sica Matem\'{a}tica},
+  publisher = {Livros T\'{e}cnicos e Cient\'{i}ficos Editora},
+  year = {1998},
+  author = {Eugene Butkov},
+  owner = {david},
+  timestamp = {2013.12.16}
+}
+
+@BOOK{MecEst,
+  title = {Introdu\c{c}\~{a}o \`{a} F\'{i}sica Estat\'{i}stica},
+  publisher = {Editora Livraria da F\'{i}sica},
+  year = {2012},
+  author = {J. Paulo Casquilho and Paulo Ivo Cortez Teixeira}
+}
+
+@INCOLLECTION{Ripoll,
+  author = {J. K. G. Dhont and G. Gompper and P. R. Lang and D. Richter and M.
+	Ripoll and D. Willbold and R. Zorn},
+  title = {Mesoscale Hydrodynamics},
+  booktitle = {Lecture Notes from the 42nd IFF Spring-School on `Macromolecular
+	Systems in Soft and Living Matter'},
+  publisher = {Forschungszentrum J\"ulich},
+  year = {2011}
+}
+
+@BOOK{frenkel2001understanding,
+  title = {Understanding molecular simulation: from algorithms to applications},
+  publisher = {Academic Press},
+  year = {2002},
+  author = {Frenkel, Daan and Smit, Berend}
+}
+
+@INCOLLECTION{gompper2009multi,
+  author = {Gompper, G and Ihle, T and Kroll, DM and Winkler, RG},
+  title = {Multi-Particle Collision Dynamics: A Particle-Based Mesoscale Simulation
+	Approach to the Hydrodynamics of Complex Fluids},
+  booktitle = {Advanced Computer Simulation Approaches for Soft Matter Sciences
+	III},
+  publisher = {Springer},
+  year = {2009},
+  pages = {1--87}
+}
+
+@ARTICLE{LB2,
+  author = {He, Xiaoyi and Luo, Li-Shi},
+  title = {Theory of the lattice Boltzmann method: From the Boltzmann equation
+	to the lattice Boltzmann equation},
+  journal = {Physical Review E},
+  year = {1997},
+  volume = {56},
+  pages = {6811},
+  number = {6},
+  publisher = {APS}
+}
+
+@ARTICLE{DPD1,
+  author = {Hoogerbrugge, PJ and Koelman, JMVA},
+  title = {Simulating microscopic hydrodynamic phenomena with dissipative particle
+	dynamics},
+  journal = {EPL (Europhysics Letters)},
+  year = {1992},
+  volume = {19},
+  pages = {155},
+  number = {3},
+  publisher = {IOP Publishing}
+}
+
+@ARTICLE{huang2010cell,
+  author = {Huang, CC and Chatterji, A and Sutmann, G and Gompper, Gerhard and
+	Winkler, Roland G},
+  title = {Cell-level canonical sampling by velocity scaling for multiparticle
+	collision dynamics simulations},
+  journal = {Journal of Computational Physics},
+  year = {2010},
+  volume = {229},
+  pages = {168--177},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{ihle2003stochastic,
+  author = {Ihle, T and Kroll, DM},
+  title = {Stochastic rotation dynamics. I. Formalism, Galilean invariance,
+	and Green-Kubo relations},
+  journal = {Physical Review E},
+  year = {2003},
+  volume = {67},
+  pages = {066705},
+  number = {6},
+  publisher = {APS}
+}
+
+@ARTICLE{LGA_pol,
+  author = {Koelman, JM Vianney A},
+  title = {Cellular-automaton-based simulation of 2D polymer dynamics},
+  journal = {Physical review letters},
+  year = {1990},
+  volume = {64},
+  pages = {1915--1918},
+  number = {16},
+  publisher = {American Physical Society}
+}
+
+@ARTICLE{LGA_col,
+  author = {Ladd, Anthony JC and Colvin, Michael E and Frenkel, Daan},
+  title = {Application of lattice-gas cellular automata to the Brownian motion
+	of solids in suspension},
+  journal = {Physical review letters},
+  year = {1988},
+  volume = {60},
+  pages = {975},
+  number = {11},
+  publisher = {APS}
+}
+
+@ARTICLE{lamura2001multi,
+  author = {Lamura, Antonio and Gompper, Gerhard and Ihle, Thomas and Kroll,
+	DM},
+  title = {Multi-particle collision dynamics: Flow around a circular and a square
+	cylinder},
+  journal = {EPL (Europhysics Letters)},
+  year = {2001},
+  volume = {56},
+  pages = {319},
+  number = {3},
+  publisher = {IOP Publishing}
+}
+
+@BOOK{andrew2001molecular,
+  title = {Molecular modelling: principles and applications},
+  publisher = {Pearson Education},
+  year = {2001},
+  author = {Andrew R. Leach}
+}
+
+@BOOK{nivaldo,
+  title = {Mec{\^a}nica anal{\'\i}tica},
+  publisher = {Livraria da F{\'\i}sica},
+  year = {2007},
+  author = {Lemos, Nivaldo A}
+}
+
+@ARTICLE{Kapral,
+  author = {Malevanets, Anatoly and Kapral, Raymond},
+  title = {Mesoscopic model for solvent dynamics},
+  journal = {The Journal of chemical physics},
+  year = {1999},
+  volume = {110},
+  pages = {8605}
+}
+
+@ARTICLE{LB1,
+  author = {McNamara, Guy R and Zanetti, Gianluigi},
+  title = {Use of the Boltzmann equation to simulate lattice-gas automata},
+  journal = {Physical Review Letters},
+  year = {1988},
+  volume = {61},
+  pages = {2332},
+  number = {20},
+  publisher = {APS}
+}
+
+@ARTICLE{noguchi2007particle,
+  author = {Noguchi, Hiroshi and Kikuchi, Norio and Gompper, Gerhard},
+  title = {Particle-based mesoscale hydrodynamic techniques},
+  journal = {EPL (Europhysics Letters)},
+  year = {2007},
+  volume = {78},
+  pages = {10005},
+  number = {1},
+  publisher = {IOP Publishing}
+}
+
+@ARTICLE{LB3,
+  author = {Piaud, Benjamin and Blanco, St{\'e}phane and Fournier, Richard and
+	Clifton, Michael J},
+  title = {Energy-conserving lattice Boltzmann thermal model in two dimensions},
+  journal = {Journal of statistical physics},
+  year = {2005},
+  volume = {121},
+  pages = {119--131},
+  number = {1-2},
+  publisher = {Springer}
+}
+
+@ARTICLE{pomeau1986lattice,
+  author = {Pomeau, B Hasslacher Y and Frisch, U},
+  title = {Lattice-gas automata for the Navier-Stokes equation},
+  journal = {Phys. Rev. Lett},
+  year = {1986},
+  volume = {56},
+  pages = {1505},
+  number = {14}
+}
+
+@BOOK{scherer2005metodos,
+  title = {M{\'e}todos computacionais da F{\'\i}sica},
+  publisher = {Livraria da F{\'\i}sica},
+  year = {2005},
+  author = {Scherer, Claudio}
+}
+
+@ARTICLE{tuzel2002transport,
+  author = {Tuzel, Erkan and Strauss, Martin and Ihle, Thomas and Kroll, Daniel
+	M},
+  title = {Transport coefficients for stochastic rotation dynamics in three
+	dimensions},
+  journal = {Physical review. E, Statistical, nonlinear, and soft matter physics},
+  year = {2002},
+  volume = {68},
+  pages = {036701--1},
+  number = {3},
+  publisher = {American Physical Society}
+}
+
+@BOOK{LGA1,
+  title = {Lattice-gas cellular automata and lattice Boltzmann models: an introduction},
+  publisher = {Springer},
+  year = {2000},
+  author = {Wolf-Gladrow, Dieter A},
+  number = {1725}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+
